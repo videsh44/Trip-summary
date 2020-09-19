@@ -1,0 +1,108 @@
+.topLayoutOne {
+  display: flex;
+  margin-top: 50px;
+}
+
+.topLayoutOne__left {
+  width: 50%;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.topLayoutOne__right {
+  width: 50%;
+  text-align: right;
+}
+
+/** ......................LAYOUT 1 ENDS..............................*/
+
+/** ......................LAYOUT 2 STARTS..............................*/
+
+.layoutTwo {
+  display: flex;
+  margin-top: 30px;
+}
+
+.layoutTwo__left {
+  width: 70%;
+}
+
+.layoutTwo__right {
+  width: 30%;
+}
+
+/** ......................LAYOUT 2 ENDS..............................*/
+
+/*..................................TABLE STARTS...................................**/
+
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  border-radius: 2px;
+  margin-bottom: 24px;
+  border: 1px solid;
+  overflow: hidden;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  background: #19274c;
+  color: #fff;
+}
+
+.theadDark thead[class*="ant-table-thead"] th {
+  color: #fff;
+  background-color: #00bddd;
+  font-size: 12pt;
+}
+
+.table__button {
+  margin: 5px;
+  background: #00bddd;
+  color: #fff;
+}
+
+/*..................................TABLE ENDS...................................**/
+
+.serviceBox {
+  display: flex;
+  border: 1px solid silver;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.serviceBox__img {
+  width: 20%;
+  padding: 10px;
+}
+
+.serviceBox__text {
+  width: 80%;
+  padding: 3px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+  .topLayoutOne {
+    flex-flow: column;
+    text-align: center;
+  }
+
+  .topLayoutOne__left {
+    width: 100%;
+  }
+
+  .topLayoutOne__right {
+    width: 100%;
+  }
+
+  .layoutTwo {
+    flex-flow: column;
+  }
+
+  .layoutTwo__left {
+    width: 100%;
+  }
+  .layoutTwo__right {
+    margin: auto;
+  }
+}
